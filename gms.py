@@ -1,33 +1,33 @@
 try:
-   import colorama 
-   from colorama import Fore 
-   from colorama import Style 
- from colorama import Back 
+  import colorama
+  from colorama import Fore
+  from colorama import Style
+  from colorama import Back
 except:
-    print("[+] Please Setup Tool\npython3 setup.py")
-import os 
+  print("[+] Please Setup Tool\npython3 setup.py")
+import os
 try:
- import requests 
+  import requests
 except:
-    print("[+] Please Setup Tool\npython3 setup.py")
- import random 
- import socket 
- import sys 
- import subprocess 
- import re 
- import threading 
+  print("[+] Please Setup Tool\npython3 setup.py")
+import random
+import socket
+import sys
+import subprocess
+import re
+import threading
 try:
-   import aiohttp 
-   import asyncio 
+  import aiohttp
+  import asyncio
 except:
-    print("[+] Please Setup Tool\npython3 setup.py")
+  print("[+] Please Setup Tool\npython3 setup.py")
 try:
-    colorama.init()
+  colorama.init()
 except:
-    print("[+] Please Setup Tool\npython3 setup.py")
-    
+  print("[+] Please Setup Tool\npython3 setup.py")
   
- os.system('cls' if os.name == 'nt' else 'clear') 
+os.system('cls' if os.name == 'nt' else 'clear')
+
   
  print(f''' 
  {Fore.RED}GMS - Sploit Tool 
