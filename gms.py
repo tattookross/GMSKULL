@@ -31,7 +31,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
   
 print(f'''
 {Fore.RED}GMS - GhostManSec Sploit Tool
-{Fore.RED}Dev By : @ghostman_s3c{Style.RESET_ALL}
+{Fore.RED}Dev By : @m7hk.RESET_ALL}
                             ,-.                               
        ___,---.__          /'|`\          __,---,___          
     ,-'    \`    `-.____,-'  |  `-.____,-'    //    `-.       
@@ -57,7 +57,7 @@ eViL        /   /     ||--+--|--+-/-|     \   \
  +-- -=[ Twitter : {Back.GREEN}@HKGATO{Style.RESET_ALL}       ]=- 
  +-- -=[ Email : supportumbrella@gmail.com   ]=- 
   
- DMS document : https://m7hk.blogger.ml
+ DMS document : https://ghostmanews.blogspot.com
  N/A''') 
  print(f'''
 {Fore.WHITE}{Back.RED}Warning Cyber Secutity !! {Style.RESET_ALL}
