@@ -59,33 +59,33 @@ eViL        /   /     ||--+--|--+-/-|     \   \
   
  DMS document : https://m7hk.blogger.ml
  N/A''') 
- print(f''' 
- {Fore.WHITE}{Back.RED}Warning Cyber Secutity !! {Style.RESET_ALL} 
- [-] ALL METHOD(s) : 
- +-- -=[ 1 Malware Method              ] 
- +-- -=[ 2 Stresser DDoS Attack Method ] 
- +-- -=[ 3 Exploit - Scan Vulnerable   ] 
- +-- -=[ 2 Scan Information Target     ] 
- {Fore.BLUE}[*]{Style.RESET_ALL} Please use according to the provisions of Law 
- --- 
- method : 
-     1), Backdoor Created ({Fore.RED + Style.BRIGHT}WARNING MALWARE{Style.RESET_ALL})  
-     2), Attack the server's bandwidth is overloaded ({Fore.RED}{Style.BRIGHT}WARNING DDoS{Style.RESET_ALL}) 
-     3), DDoS attack TCP, UDP Attack ({Fore.RED}{Style.BRIGHT}WARNING DDoS{Style.RESET_ALL}) 
-     4), (SQLi) - MySQL Injection Checking Vulnerable ({Fore.RED + Style.BRIGHT}WARNING SECURITY{Style.RESET_ALL}) 
-     5), XSS - Cross Site Script Checking Vulnerable ({Fore.RED + Style.BRIGHT}WARNING SECURITY{Style.RESET_ALL}) 
-     6), Scan Page Login Admin ({Fore.GREEN + Style.BRIGHT}BASIC HACKING{Style.RESET_ALL}) 
-     7), Checking PORT server address ({Fore.GREEN + Style.BRIGHT}BASIC HACKING{Style.RESET_ALL})    
-     8), Injection Command MySQL - Enumerate Database SQLi ({Fore.RED + Style.BRIGHT}WARNING SECURITY{Style.RESET_ALL})  
- --- 
- ''') 
-  
- choose = input("choose method : ") 
-  
- if choose == "1": 
-     import os 
-     os.system('cls' if os.name == 'nt' else 'clear') 
-     print(f'''{Fore.RED} 
+ print(f'''
+{Fore.WHITE}{Back.RED}Warning Cyber Secutity !! {Style.RESET_ALL}
+[-] ALL METHOD(s) :
++-- -=[ 1 Malware Method              ]
++-- -=[ 2 Stresser DDoS Attack Method ]
++-- -=[ 3 Exploit - Scan Vulnerable   ]
++-- -=[ 2 Scan Information Target     ]
+{Fore.BLUE}[*]{Style.RESET_ALL} Please use according to the provisions of Law
+---
+method :
+    1), Backdoor Created ({Fore.RED + Style.BRIGHT}WARNING MALWARE{Style.RESET_ALL}) 
+    2), Attack the server's bandwidth is overloaded ({Fore.RED}{Style.BRIGHT}WARNING DDoS{Style.RESET_ALL})
+    3), DDoS attack TCP, UDP Attack ({Fore.RED}{Style.BRIGHT}WARNING DDoS{Style.RESET_ALL})
+    4), (SQLi) - MySQL Injection Checking Vulnerable ({Fore.RED + Style.BRIGHT}WARNING SECURITY{Style.RESET_ALL})
+    5), XSS - Cross Site Script Checking Vulnerable ({Fore.RED + Style.BRIGHT}WARNING SECURITY{Style.RESET_ALL})
+    6), Scan Page Login Admin ({Fore.GREEN + Style.BRIGHT}BASIC HACKING{Style.RESET_ALL})
+    7), Checking PORT server address ({Fore.GREEN + Style.BRIGHT}BASIC HACKING{Style.RESET_ALL})   
+    8), Injection Command MySQL - Enumerate Database SQLi ({Fore.RED + Style.BRIGHT}WARNING SECURITY{Style.RESET_ALL}) 
+---
+''')
+
+choose = input("choose method : ")
+
+if choose == "1":
+    import os
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print(f'''{Fore.RED} 
                              ,-.                                
         ___,---.__          /' `\          __,---,___           
      ,-'    \`    `-.____,-'     `-.____,-'    //    `-.        
